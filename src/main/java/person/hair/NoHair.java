@@ -1,9 +1,9 @@
-package person.appearance.hair;
+package person.hair;
 
 public class NoHair extends Hair {
 
     @Override
     public final String toString() {
-        return "нет";
+        return "Волосы:нет";
     }
 }

@@ -2,6 +2,10 @@ plugins {
     id 'java'
 }
 
+//tasks.withType(JavaCompile) {
+//    options.encoding = 'UTF-8'
+//}
+
 version '1.0-SNAPSHOT'
 
 repositories {
@@ -15,5 +19,6 @@ dependencies {
 }
 
 test {
+//    systemProperty "file.encoding", "utf-8"
     useJUnitPlatform()
 }
